@@ -35,10 +35,10 @@ const FilterButton = styled.button`
   }
 `;
 
-function Filter() {
+function Filter({ filterFiled, options }) {
   const [searchParams, setSearchParams] = useSearchParams();
   function handleClick(value) {
-    searchParams.set("discount", value);
+    searchParams.set(filterFiled, value);
     setSearchParams(searchParams);
   }
   return (
