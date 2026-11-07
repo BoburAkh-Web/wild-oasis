@@ -17,7 +17,6 @@ function useCreateCabin() {
       toast.error(err.message);
     },
   });
-
   return { createCabin, isCreating };
 }
 
