@@ -20,8 +20,6 @@ const CommonRow = styled.div`
 
 const StyledHeader = styled(CommonRow)`
   padding: 1.6rem 2.4rem;
-  display: flex;
-  justify-content: space-between;
   background-color: var(--color-grey-50);
   border-bottom: 1px solid var(--color-grey-100);
   text-transform: uppercase;
@@ -32,8 +30,6 @@ const StyledHeader = styled(CommonRow)`
 
 const StyledRow = styled(CommonRow)`
   padding: 1.2rem 2.4rem;
-  display: flex;
-  justify-content: space-between;
 
   &:not(:last-child) {
     border-bottom: 1px solid var(--color-grey-100);
